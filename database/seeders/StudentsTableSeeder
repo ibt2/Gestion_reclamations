@@ -1,0 +1,20 @@
+<?php 
+use Illuminate\Database\Seeder;
+use App\Models\etudiant;
+use Faker\Factory as Faker;
+use db;
+class StudentsTableSeeder extends Seeder
+{
+    public function run()
+    {
+        $faker = Faker::create();
+
+        foreach (range(1, 10) as $index) {
+                 etudiant::create([
+                'name' => $faker->name,
+                'email' => $faker->unique()->safeEmail,
+                'level' => $faker->randomElement(['1A', '2A', '3A']),
+                'phone' => $faker->phoneNumber,
+            ]);
+
+        }}}
