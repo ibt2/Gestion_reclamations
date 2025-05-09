@@ -24,7 +24,8 @@ Voici quelques captures d'écran de l'application :
 
 ### 🔐 Page de Connexion
 ### Professeur
-![Login](![prof](https://github.com/user-attachments/assets/7230dc9a-b20b-4f3c-abdc-b246ac92345c)
+![Login]![prof](https://github.com/user-attachments/assets/fa379fc9-f2a1-4113-acc7-131ba6e3eb5f)
+
 )
 ### Etudiant
 ![login étudiant](https://github.com/user-attachments/assets/c6d1b464-5e0f-4e0d-a570-35d1e1fa23f1)
@@ -45,11 +46,23 @@ Voici quelques captures d'écran de l'application :
 
 ## ⚙️ À propos de Laravel
 
-Laravel is a web application framework with expressive, elegant syntax...
+Laravel est un framework d'applications web avec une syntaxe expressive et élégante. Il vise à rendre le développement à la fois agréable et créatif pour les développeurs. Laravel simplifie de nombreuses tâches fréquentes dans le développement web, telles que :
 
-*Le texte Laravel d'origine suit ci-dessous... (tu peux laisser comme ça ou le raccourcir selon ton besoin)*
+-Un moteur de routage rapide et simple
 
----
+-Un conteneur d'injection de dépendances puissant
+
+-Plusieurs systèmes de stockage pour les sessions et le cache
+
+-Un ORM de base de données intuitif (Eloquent)
+
+-Des migrations de schéma de base de données indépendantes du SGBD
+
+-Un traitement robuste des tâches en arrière-plan (jobs/queues)
+
+-Une diffusion d’événements en temps réel
+
+-Laravel est à la fois accessible et puissant, et offre tous les outils nécessaires au développement d'applications web modernes, évolutives et sécurisées.
 
 ## 🚀 Installation 
 
