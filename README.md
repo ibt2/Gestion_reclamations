@@ -6,7 +6,7 @@
 
 # 📚 Application de Gestion des Réclamations Étudiantes
 
-Ce projet est une application web développée avec Laravel, qui permet aux étudiants de soumettre leurs réclamations (administratives, pédagogiques, etc.) et aux responsables de les consulter, les traiter et y répondre.
+Ce projet est une application web développée avec Laravel, qui permet aux étudiants de soumettre leurs réclamations a propos leurs ntes d'examens et aux responsables de les consulter, les traiter et y répondre.
 
 ## ✨ Fonctionnalités
 
@@ -14,22 +14,32 @@ Ce projet est une application web développée avec Laravel, qui permet aux étu
 - Soumission de réclamations par les étudiants
 - Suivi de l’état des réclamations (en attente, traitée, rejetée…)
 - Réponse des administrateurs
-- Statistiques des réclamations
+- Réservation de rendez vous avec le professeur
 
 ## 🖼️ Aperçu
 
 Voici quelques captures d'écran de l'application :
+### Page d'acceuil
+![acceuil](https://github.com/user-attachments/assets/a0c200ca-d708-4b9d-8c67-6a53264dd18a)
 
 ### 🔐 Page de Connexion
-![Login](chemin/vers/ton/image-login.png)
+### Professeur
+![Login](![prof](https://github.com/user-attachments/assets/7230dc9a-b20b-4f3c-abdc-b246ac92345c)
+)
+### Etudiant
+![login étudiant](https://github.com/user-attachments/assets/c6d1b464-5e0f-4e0d-a570-35d1e1fa23f1)
 
 ### 📝 Interface Étudiant - Ajouter une réclamation
-![Add Reclamation](chemin/vers/ton/image-ajout-reclamation.png)
+![Add Reclamation]![ajout rec](https://github.com/user-attachments/assets/e34ec80e-1393-4478-9f72-9d38750f9263)
+### Prendre un rendez vous 
+![reserve rdv](https://github.com/user-attachments/assets/d3ce28dc-66ec-4437-bac7-1282911b9d1e)
+
 
 ### 📋 Interface Admin - Liste des réclamations
-![Admin Dashboard](chemin/vers/ton/image-dashboard-admin.png)
+![Admin Dashboard]![ajout rec](https://github.com/user-attachments/assets/7baa02f4-9e85-427c-8539-4e54846fd46b)
 
-> **Remarque** : remplace `chemin/vers/ton/image.png` par le vrai chemin de ton image (par exemple : `/public/images/login.png` ou un lien absolu GitHub)
+
+
 
 ---
 
@@ -41,7 +51,7 @@ Laravel is a web application framework with expressive, elegant syntax...
 
 ---
 
-## 🚀 Installation (optionnel si tu veux le partager)
+## 🚀 Installation 
 
 ```bash
 git clone https://github.com/ton-username/ton-projet.git
